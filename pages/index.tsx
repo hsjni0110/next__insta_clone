@@ -6,7 +6,7 @@ import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className='bg-gray-50 h-screen overflow-y-scroll scrollbar-hide'>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       {/* Header */}
       <Header />
-
+      
       {/* Feed */}
       <Feed />
       {/* Modal */}
