@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.3",
     "@heroicons/react": "^1.0.6",
     "@ngneat/falso": "^6.1.0",
     "firebase": "^9.13.0",
@@ -13,6 +14,7 @@
     "next-auth": "^4.15.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "recoil": "^0.7.6",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
